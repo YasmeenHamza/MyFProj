@@ -1,28 +1,46 @@
 <html>
-<head><title>welcome</title>
+
+<head>
+<title>welcome</title>
+
 <script type="text/javascript">
+
 function myFunction(welcome) {
- if(document.welcome.name.value=="yasmeen" & &  document.welcome.password.value =="1234") 
+ 
+if(document.welcome.userName.value=="yasmeen" && document.welcome.password.value =="1234") 
+
  {
-   window.open ("www.facebook.com ")
+   window.open ("next.html")
    }
+
  else
  window.alert("error ")
  
   }
 
+
 </script>
+
 </head>
+
 <body bgcolor="red">
-  <form name="welcome">
-    <pre >
-  UserName:  <input type="text" name="name">
-  Password:  <input type="Password" name="password">
-  
-  <button type="button" onclick="myFunction()">submit</button>
+ 
+ <form name="welcome">
+   
+ <pre >
+  UserName:  <input type="text" name="userName" >
+
+  Password:  <input type="Password" name="password" >
+ 
+ 
+  <button type="button" OnClick="myFunction()">submit</button>
+
   
   
  </pre>
+
 </form>
+
 </body>
+
 </html>
